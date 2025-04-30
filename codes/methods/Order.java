@@ -25,10 +25,8 @@ public class Order {
     public String toString() {
         return username + "," + address + "," + phoneNumber + "," + toyName + "," + toyPrice;
     }
-
     public static Order fromString(String line) {
         String[] parts = line.split(",");
-        // Ensure the array has enough parts to avoid ArrayIndexOutOfBoundsException
         String username = parts.length > 0 ? parts[0] : "";
         String address = parts.length > 1 ? parts[1] : "";
         String phoneNumber = parts.length > 2 ? parts[2] : "";
