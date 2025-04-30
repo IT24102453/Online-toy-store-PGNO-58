@@ -26,20 +26,9 @@ public class Toy {
     public String toString() {
         return toyName + "," + ageGroup + "," + toyPrice + "," + category;
     }
-
     public static Toy fromString(String line) {
         String[] parts = line.split(",");
         String category = parts.length > 3 ? parts[3] : "General";
         return new Toy(parts[0], parts[1], Double.parseDouble(parts[2]), category);
     }
-    public int getAge() {
-        if (ageGroup == null || ageGroup.isEmpty()) return Integer.MAX_VALUE;
-        try {
-            String[] parts = ageGroup.split("-");
-            return Integer.parseInt(parts[0].trim());
-        } catch (Exception e) {
-            return Integer.MAX_VALUE;
-        }
-    }
-
-}
+    
