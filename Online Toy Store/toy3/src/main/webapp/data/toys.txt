@@ -1,0 +1,4 @@
+Teddy,1-5,300.0,General
+Puzzle maker,1-5,800.0,Puzzles
+Rubi cube,3-10,500.0,Educational
+Remote Car,3-10,800.0,General

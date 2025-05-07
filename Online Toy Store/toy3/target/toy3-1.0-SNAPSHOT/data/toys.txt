@@ -1,0 +1,5 @@
+new toy 6,3-5,1000.0,Educational
+new toy 2,8-10,200.0,Educational
+new toy 3,9-11,300.0,Action Figures
+new toy,10-15,200.0,Action Figures
+new toy 4,20-30,400.0,Puzzles
